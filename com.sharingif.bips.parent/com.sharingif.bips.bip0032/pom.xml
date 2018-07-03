@@ -6,24 +6,15 @@
         <version>1.0.0-RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>com.sharingif.bips.bip0039</artifactId>
-    <name>com.sharingif.bips.bip0039</name>
+    <artifactId>com.sharingif.bips.bip0032</artifactId>
+    <name>com.sharingif.bips.bip0032</name>
     <url>http://maven.apache.org</url>
 
     <dependencies>
-
         <dependency>
-            <groupId>${project.groupId}</groupId>
-            <artifactId>com.sharingif.bips.bip0032</artifactId>
-            <version>${maven.project.com.sharingif.bips.version}</version>
+            <groupId>${maven.cube.groupId}</groupId>
+            <artifactId>com.sharingif.cube.security</artifactId>
+            <version>${maven.project.com.sharingif.cube.version}</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.50</version>
-        </dependency>
-
     </dependencies>
-
 </project>

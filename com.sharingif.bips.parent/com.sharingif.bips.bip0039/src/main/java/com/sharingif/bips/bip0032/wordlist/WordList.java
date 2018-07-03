@@ -1,4 +1,4 @@
-package com.sharingif.bips.bip0039.wordlist;
+package com.sharingif.bips.bip0032.wordlist;
 
 /**
  * WordList

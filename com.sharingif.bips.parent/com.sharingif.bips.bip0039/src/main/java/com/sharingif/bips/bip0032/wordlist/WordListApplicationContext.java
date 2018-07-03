@@ -1,6 +1,5 @@
-package com.sharingif.bips.bip0039.wordlist;
+package com.sharingif.bips.bip0032.wordlist;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -14,8 +13,13 @@ import java.util.Map;
  * 2018/6/27 下午5:39
  */
 public class WordListApplicationContext {
+    public static Map<String, WordList> WordListMap;
 
-    public static Map<String, WordList> WordListMap = new HashMap<String, WordList>();
+    static {
+        WordListMap = new HashMap<String, WordList>();
+        WordListApplicationContext.registWordList(Locale.US, new English());
+    }
+
 
     public static void registWordList(Locale locale, WordList wordList) {
         WordListMap.put(locale.toString(), wordList);

@@ -22,6 +22,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.jdk.version>1.8</project.build.jdk.version>
+        <maven.project.com.sharingif.bips.version>1.0.0-RELEASE</maven.project.com.sharingif.bips.version>
 
 		<maven.cube.groupId>com.sharingif.cube</maven.cube.groupId>
 		<maven.project.com.sharingif.cube.version>4.0.0-RELEASE</maven.project.com.sharingif.cube.version>
@@ -33,7 +34,8 @@
 	<modules>
 		<module>com.sharingif.bips.bip0039</module>
 		<module>com.sharingif.bips.bip0044</module>
-	</modules>
+        <module>com.sharingif.bips.bip0032</module>
+    </modules>
 
 	<dependencies>
 		<dependency>
@@ -42,6 +44,7 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<build>

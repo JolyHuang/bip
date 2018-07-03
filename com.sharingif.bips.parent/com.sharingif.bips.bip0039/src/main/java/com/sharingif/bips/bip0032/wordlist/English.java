@@ -1,4 +1,4 @@
-package com.sharingif.bips.bip0039.wordlist;
+package com.sharingif.bips.bip0032.wordlist;
 
 import java.util.Locale;
 
@@ -11,10 +11,6 @@ import java.util.Locale;
  * 2018/6/27 下午5:20
  */
 public class English extends AbstractWordList {
-
-    static {
-        WordListApplicationContext.registWordList(Locale.US, new English());
-    }
 
     @Override
     protected String getFileName() {
