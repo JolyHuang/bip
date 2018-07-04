@@ -18,12 +18,6 @@
             <version>${maven.project.com.sharingif.bips.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.50</version>
-        </dependency>
-
     </dependencies>
 
 </project>
